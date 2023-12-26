@@ -1,0 +1,94 @@
+body {
+  background-color: aqua;
+}
+.container {
+  display: flexbox;
+  background-color: silver;
+  margin-top: 150px;
+  margin-left: 30%;
+  margin-right: 50%px;
+  width: 800px;
+  height: 400px;
+  padding-bottom: 50px;
+  padding-top: 3px;
+  padding-left: 15px;
+  border-radius: 5%;
+}
+.container .text {
+  text-align: center;
+  border: 5px solid rgb(15, 213, 150);
+  box-shadow: 5px 5px;
+  margin-left: 20%;
+  margin-top: 10px;
+  width: 400px;
+}
+.container .text h1 {
+  margin-left: 20px
+}
+
+/**Bilangan Ke-1**/
+.input-one {
+  margin-top: 40px;
+  margin-left: 10px;
+  font-family: sans-serif;
+}
+.input-one label {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.input-one input {
+  background-color: rgba(232, 231, 231, 0.911);
+  width: 750px;
+  height: 45px;
+  margin-top: 10px;
+  border: hidden;
+  box-shadow: 2px 2px 2px;
+  font-size: 20px;
+  text-indent: 7px;
+}
+
+/**Bilangan ke-2**/
+.input-two {
+  margin-top: 40px;
+  margin-left: 10px;
+  font-family: sans-serif;
+}
+.input-two label {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.input-two input {
+  background-color: rgba(232, 231, 231, 0.911);
+  width: 750px;
+  height: 45px;
+  margin-top: 10px;
+  border: hidden;
+  box-shadow: 2px 2px 2px;
+  font-size: 20px;
+  text-indent: 7px;
+}
+
+button {
+  display: flexbox;
+  margin-top: 20px;
+  margin-left: 80px;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  background-color: rgb(48, 161, 231);
+  border-radius: 50%;
+}
+.footer {
+  text-align: center;
+  margin-top: 10px;
+  color: blue;
+}
+@media screen and (max-width: 800px) {
+  .container,
+  .rightcolumn {
+    width: 100%;
+    padding: 0%;
+  }
+}
