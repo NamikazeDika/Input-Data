@@ -1,0 +1,96 @@
+.container {
+  display: flexbox;
+  background-color: bisque;
+  width: 800px;
+  height: 500px;
+}
+.container .text {
+  text-align: center;
+  border: 5px solid rgb(15, 150, 213);
+  box-shadow: 5px 5px;
+  margin-left: 25%;
+  margin-top: 50px;
+  width: 400px;
+}
+.container .text h1 {
+  margin-left: 20px;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.NPM {
+  margin-top: 40px;
+  margin-left: 25px;
+  font-family: sans-serif;
+}
+.NPM label {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.NPM input {
+  background-color: rgba(232, 231, 231, 0.911);
+  width: 750px;
+  height: 45px;
+  margin-top: 10px;
+  border: hidden;
+
+  font-size: 20px;
+  text-indent: 7px;
+}
+.NAMA {
+  margin-top: 10px;
+  margin-left: 25px;
+  font-family: sans-serif;
+}
+.NAMA label {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.NAMA input {
+  background-color: rgba(232, 231, 231, 0.911);
+  width: 750px;
+  height: 45px;
+  margin-top: 10px;
+  border: hidden;
+
+  font-size: 20px;
+  text-indent: 7px;
+}
+.NILAI {
+  margin-top: 10px;
+  margin-left: 25px;
+  font-family: sans-serif;
+}
+.NILAI label {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.NILAI input {
+  background-color: rgba(232, 231, 231, 0.911);
+  width: 750px;
+  height: 45px;
+  margin-top: 10px;
+  border: hidden;
+
+  font-size: 20px;
+  text-indent: 7px;
+}
+
+button {
+  display: flexbox;
+  margin-top: 20px;
+  margin-left: 25px;
+  height: 50px;
+  font-size: 25px;
+  background-color: rgb(116, 186, 230);
+  
+}
+.footer {
+  text-align: center;
+  margin-top: 10px;
+  color: blue;
+}
